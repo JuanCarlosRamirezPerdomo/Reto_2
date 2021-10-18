@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RETO2</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+
+</head>
+
+<body>
+<h2> ALQUILER DE BICICLETAS </h2>
+<h1> BICICLETAS</h1>
+<div id="resultado"></div>
+<button onclick="traerInformacion()"> Consultar </button>
+
+<div>
+    <input type="number" id="id" placeholder="id">
+    <input type="text" id="brand" placeholder="brand">
+    <input type="number" id="model" placeholder="model">
+    <input type="number" id="category_id" placeholder="category_id">
+    <input type="text" id="name" placeholder="name">
+</div>
+
+<button onclick="guardarInformacion()">Crear</button>
+<button onclick="editarInformacion()">Actualizar!</button>
+
+
+<!--
+//******************************************************************************************************************************************* 
+//******************************************************************************************************************************************
+//******************************************************************************************************************************************* 
+//******************************************************************************************************************************************
+//******************************************************************************************************************************************* 
+-->
+
+<h1> CLIENTES</h1>
+<div id="resultadoCliente"></div>
+<button onclick="traerInformacionCliente()"> Consultar </button>
+
+<div>
+    <input type="number" id="idCliente" placeholder="id">
+    <input type="text" id="nameCliente" placeholder="name">
+    <input type="text" id="email" placeholder="email">
+    <input type="number" id="age" placeholder="age">
+    
+</div>
+<button onclick="guardarInformacionCliente()">Crear</button>
+<button onclick="editarInformacionCliente()">Actualizar!</button>
+
+
+<!--
+//******************************************************************************************************************************************* 
+//******************************************************************************************************************************************
+//******************************************************************************************************************************************* 
+//******************************************************************************************************************************************
+//******************************************************************************************************************************************* 
+-->
+
+
+<h1> MENSAGES</h1>
+<div id="resultadoMensage"></div>
+<button onclick="traerInformacionMensage()"> Consultar </button>
+
+<div>
+    <input type="number" id="idMensage" placeholder="id">
+    <input type="text" id="messagetext" placeholder="messagetext">
+    
+</div>
+<button onclick="guardarInformacionMensage()">Crear</button>
+<button onclick="editarInformacionMensage()">Actualizar!</button>
+
+
+</body>
+
+</html>
